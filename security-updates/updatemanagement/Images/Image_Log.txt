@@ -1,0 +1,12 @@
+08_23_2017_14_20_10	19870078	https://technet.microsoft.com/ja-jp/dd362382.arrow_px_down(ja-jp,TechNet.10).gif
+08_23_2017_14_20_10	19870078	https://technet.microsoft.com/ja-jp/dd362382.arrow_px_up(ja-jp,TechNet.10).gif
+08_23_2017_14_20_10	2-19869660	https://technet.microsoft.com/ja-jp/Cc700831.SGFG19501(ja-jp,TechNet.10).jpg
+08_23_2017_14_20_10	2-19869660	https://technet.microsoft.com/ja-jp/Cc700831.SGFG19502(ja-jp,TechNet.10).gif
+08_23_2017_14_20_10	2-19869660	https://technet.microsoft.com/ja-jp/Cc700831.SGFG19503(ja-jp,TechNet.10).jpg
+08_23_2017_14_20_10	3-19869661	https://technet.microsoft.com/ja-jp/Cc700840.SGFG19601(ja-jp,TechNet.10).jpg
+08_23_2017_14_20_10	3-19869661	https://technet.microsoft.com/ja-jp/Cc700840.SGFG19602(ja-jp,TechNet.10).gif
+08_23_2017_14_20_10	3-19869661	https://technet.microsoft.com/ja-jp/Cc700840.SGFG19603(ja-jp,TechNet.10).gif
+08_23_2017_14_20_10	4-19869662	https://technet.microsoft.com/ja-jp/Cc700833.SGFG19701(ja-jp,TechNet.10).jpg
+08_23_2017_14_20_10	4-19869662	https://technet.microsoft.com/ja-jp/Cc700833.SGFG19702(ja-jp,TechNet.10).jpg
+08_23_2017_14_20_10	19869658	https://technet.microsoft.com/ja-jp/Cc700845.SGFG19301(ja-jp,TechNet.10).jpg
+08_23_2017_14_20_10	1-19869659	https://technet.microsoft.com/ja-jp/Cc700830.SGFG19401(ja-jp,TechNet.10).jpg

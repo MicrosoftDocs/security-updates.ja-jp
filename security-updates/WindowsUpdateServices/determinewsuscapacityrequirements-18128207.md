@@ -15,22 +15,8 @@ Hardware and database software requirements are driven by the number of client c
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Cc708483.Important(WS.10).gif" />重要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">WSUS 3.0 cannot be installed on a compressed drive. Please check that the drive you choose is not compressed.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> WSUS 3.0 cannot be installed on a compressed drive. Please check that the drive you choose is not compressed.
  
 
 ### Minimum hardware recommendations
@@ -123,39 +109,11 @@ Hardware and database software requirements are driven by the number of client c
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Cc708483.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">These guidelines assume that WSUS clients are synchronizing with the server every eight hours (for the high-end configuration) or every two hours (for the super high-end configuration). If they synchronize more often, there will be a corresponding increment in the server load. For example, if clients synchronize twice a day, the load will be twice as much as if they synchronize once a day.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> These guidelines assume that WSUS clients are synchronizing with the server every eight hours (for the high-end configuration) or every two hours (for the super high-end configuration). If they synchronize more often, there will be a corresponding increment in the server load. For example, if clients synchronize twice a day, the load will be twice as much as if they synchronize once a day.
  
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Cc708483.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Increasing the number of languages will also increase the load. Supporting five languages rather than one language will approximately double the size of the content directory.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Increasing the number of languages will also increase the load. Supporting five languages rather than one language will approximately double the size of the content directory.

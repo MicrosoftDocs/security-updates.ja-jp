@@ -29,9 +29,8 @@ You can configure different aspects of the way WSUS server information is displa
 
 3.  Click **OK**.
 
-| ![](images/Cc708590.note(WS.10).gif)注                         |
-|---------------------------------------------------------------------------------------------|
-| If you choose this option, errors will appear as pop-up windows and not as links in the UI. |
+> [!NOTE]
+> If you choose this option, errors will appear as pop-up windows and not as links in the UI. 
 
 **To display different information in the To Do section**
 1.  From the WSUS Administration console, click **Options**, and then click **Personalization**.

@@ -17,9 +17,8 @@ If you want to perform an unattended installation, see [Appendix A: Unattended I
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Be sure to read the WSUS Release Notes. Release notes often contain important late-breaking information about the release. Look for the WSUS Release Notes in the following location: &lt;*WSUSInstallationDrive*&gt;:\\Program Files\\Microsoft Windows Server Update Services\\Documentation\\En\\ |
 
-| ![](images/Cc720440.note(WS.10).gif)注                                                                                                                                         |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The latest version of WSUS setup is available on the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=74472) for Windows Server Update Services at http://go.microsoft.com/fwlink/?LinkId=74472. |
+> [!NOTE]
+> The latest version of WSUS setup is available on the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=74472) for Windows Server Update Services at http://go.microsoft.com/fwlink/?LinkId=74472. 
 
 Before you begin
 ----------------

@@ -163,9 +163,8 @@ This section contains two procedures. The first procedure installs WSUS on the b
 
     \[LocalContentCacheLocationValue\] is the path to the folder on Server 1 where update files are stored. For example, C:\\WSUS\\WSUSContent.
 
-    | ![](images/Cc708529.Important(WS.10).gif)重要         |
-    |------------------------------------------------------------------------------------|
-    | Do not use a network location or a UNC path. Do not add a trailing backslash (\\). |
+    > [!IMPORTANT]
+    > Do not use a network location or a UNC path. Do not add a trailing backslash (\\). 
 
 3.  If you chose remote storage on Microsoft Update, at a command prompt, type
 
@@ -254,9 +253,8 @@ In this section you will detach the WSUS database on Server 1 and on Server 2, a
 
 4.  Locate and then rename the existing susdb.mdf and susdb\_log.ldf files.
 
-    | ![](images/Cc708529.Important(WS.10).gif)重要                                                                        |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Note where these files are stored in the file system. Later in this section, you will copy files of the same name from Server 1 to this location. |
+    > [!IMPORTANT]
+    > Note where these files are stored in the file system. Later in this section, you will copy files of the same name from Server 1 to this location. 
 
 **To install SQL Server 2000a and detach the WSUS database on Server 1**
 1.  On Server 1, install SQL Server 2000a with the **Server and Client Tools** option and SQL Server 2000a Service Pack 3 or later.

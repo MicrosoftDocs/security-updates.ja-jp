@@ -77,6 +77,7 @@ RMS SP1 では多数の改善とパフォーマンスの強化が図られてい
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -96,27 +97,41 @@ RMS SP1 では多数の改善とパフォーマンスの強化が図られてい
 <tr class="odd">
 <td style="border:1px solid black;">1.0</td>
 <td style="border:1px solid black;">以前のバージョンの機能すべて。
+
 サーバーのオフライン登録機能は使用できません。サーバーはインターネット経由で登録する必要があります。
+
 クライアントのセルフライセンス認証機能は使用できません。</td>
 <td style="border:1px solid black;">以前のバージョンの機能すべて。
+
 サーバーのオフライン登録機能は使用できません。
+
 クライアントのセルフライセンス認証。</td>
 <td style="border:1px solid black;">以前のバージョンの機能すべて。
+
 SP1 クライアントの場合、クライアントはセルフライセンス認証を実行できます。
+
 v1 クライアントの場合、クライアントはインターネット経由でライセンス認証を実行する必要があります。</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">SP1</td>
 <td style="border:1px solid black;">以前のバージョンの機能すべて。
+
 サーバーのオフライン登録。
+
 クライアントのセルフライセンス認証機能は使用できません。</td>
 <td style="border:1px solid black;">すべての SP1 機能。
+
 サーバーのオフライン登録。
+
 クライアントのセルフライセンス認証。
+
 サーバー ロックボックス。</td>
 <td style="border:1px solid black;">以前のバージョンのすべての機能と SP1 の機能。
+
 サーバーのオフライン登録。
+
 SP1 クライアントの場合、クライアントはセルフライセンス認証を実行できます。
+
 v1 クライアントの場合、クライアントはインターネット経由でライセンス認証を実行する必要があります。</td>
 </tr>
 </tbody>

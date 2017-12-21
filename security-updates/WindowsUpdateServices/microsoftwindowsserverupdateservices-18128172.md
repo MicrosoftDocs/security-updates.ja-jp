@@ -38,8 +38,8 @@ WSUS は、Software Update Services (SUS) の後継バージョンであり、SU
 
 -   アプリケーション プログラミング インターフェイス (API) を通じた拡張性があります。
 
-![](images/Cc708440.note(ja-jp,WS.10).gif)**注 :**
+> [!NOTE]
 
-WSUS の機能の詳細については、このドキュメントの [Windows Server Update Services の諸機能](http://www.microsoft.com/japan/technet/prodtechnol/windowsserver2003/library/wsus/wsusoverviewtc/001d0ed9-6484-48db-b92d-d1c48dbb4efd.mspx) を参照してください。
+> WSUS の機能の詳細については、このドキュメントの [Windows Server Update Services の諸機能](http://www.microsoft.com/japan/technet/prodtechnol/windowsserver2003/library/wsus/wsusoverviewtc/001d0ed9-6484-48db-b92d-d1c48dbb4efd.mspx) を参照してください。
 
 ![](images/Cc708440.arrow_px_up(ja-jp,WS.10).gif) [ページのトップへ](#ctl00_rs1_eb1_panel1)

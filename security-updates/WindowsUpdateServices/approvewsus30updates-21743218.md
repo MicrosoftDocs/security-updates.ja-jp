@@ -30,19 +30,5 @@ You should approve updates to test the functionality of your WSUS deployment. Th
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939862.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If you want to install an update immediately, you can specify a deadline at the current time or in the past. You can find more information about how clients install updates with deadlines in <a href="https://technet.microsoft.com/f4aff13a-07f0-4939-881f-95191a025fcc">Client Behavior with Update Deadlines</a>.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> If you want to install an update immediately, you can specify a deadline at the current time or in the past. You can find more information about how clients install updates with deadlines in <a href="https://technet.microsoft.com/f4aff13a-07f0-4939-881f-95191a025fcc">Client Behavior with Update Deadlines</a>.

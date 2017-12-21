@@ -128,22 +128,8 @@ WSUS 3.0 SP2 サーバー インストールのシステム要件
 -   コンテンツを保存するボリュームには、20 GB 以上の空き領域が必要です。30 GB が推奨されます。
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />重要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">WSUS 3.0 SP2 は圧縮ドライブにインストールできません。
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> WSUS 3.0 SP2 は圧縮ドライブにインストールできません。
  
 
 WSUS サーバー の構成の前提条件とベスト プラクティス推奨事項
@@ -440,22 +426,8 @@ WSUS コマンド ライン セットアップ プログラムを使用すると
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (ポート 8530 を使用して QUIET モードでインストール) WSUSSetup.exe /q /u (WSUS をアンインストール)  
 ```
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />重要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">WSUS 3.0 SP2 を QUIET モード (/q) でインストールし、コンピュータがすべての前提条件を満たしていない場合は、インストールによって WSUSPreReqCheck.xml というファイルが生成され、%TEMP% ディレクトリに保存されます。
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> WSUS 3.0 SP2 を QUIET モード (/q) でインストールし、コンピュータがすべての前提条件を満たしていない場合は、インストールによって WSUSPreReqCheck.xml というファイルが生成され、%TEMP% ディレクトリに保存されます。
  
 
 <span id="BKMK_KnownIssues"></span>

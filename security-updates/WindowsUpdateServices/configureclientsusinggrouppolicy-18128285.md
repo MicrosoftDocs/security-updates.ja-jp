@@ -15,9 +15,8 @@ In a simple environment, you link the GPO with the WSUS settings to the domain. 
 
 After you set up a client computer, it will take a few minutes before it appears on the **Computers** page in the WSUS console. For client computers configured with an Active Directory-based GPO, it will take about 20 minutes after Group Policy refreshes (that is, applies any new settings to the client computer). By default, Group Policy refreshes in the background every 90 minutes, with a random offset of 0–30 minutes.
 
-| ![](images/Cc708574.note(WS.10).gif)注                                                              |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| If you want to refresh Group Policy sooner, you can go to a command prompt on the client computer and type: **gpupdate /force**. |
+> [!NOTE]
+> If you want to refresh Group Policy sooner, you can go to a command prompt on the client computer and type: **gpupdate /force**. 
 
 Load the WSUS Administrative Template
 -------------------------------------
@@ -32,9 +31,8 @@ If the computer you are using to configure Group Policy has the latest version o
 
 If the computer you are using to configure Group Policy does not have the latest version of wuau.adm, you must first load it by using the following procedure.
 
-| ![](images/Cc708574.note(WS.10).gif)注                                    |
-|--------------------------------------------------------------------------------------------------------|
-| You can start the Group Policy editor by clicking **Start**, then **Run**, then typing **gpedit.msc**. |
+> [!NOTE]
+> You can start the Group Policy editor by clicking **Start**, then **Run**, then typing **gpedit.msc**. 
 
 **To add the WSUS Administrative Template**
 1.  In the Group Policy Object Editor, click either of the **Administrative Templates** nodes.
@@ -101,9 +99,8 @@ If the status is set to **Disabled** or **Not Configured**, no computer group in
 
 4.  Click **OK**.
 
-| ![](images/Cc708574.note(WS.10).gif)注                                                                                           |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If you want to assign a client to more than one computer group, you should separate the computer group names with a semicolon plus a space: *Group1; Group2*. |
+> [!NOTE]
+> If you want to assign a client to more than one computer group, you should separate the computer group names with a semicolon plus a space: *Group1; Group2*. 
 
 Reschedule Automatic Updates scheduled installations
 ----------------------------------------------------
@@ -134,9 +131,8 @@ If the status is set to **Enabled**, Automatic Updates will not restart a comput
 
 If the status is set to **Disabled** or **Not Configured**, Automatic Updates will notify the user that the computer will automatically restart in five minutes to complete the installation. This policy applies only when Automatic Updates is configured to perform scheduled installations of updates. If the [Configure Automatic Updates](#wsus_configureautomaticupdates) policy is disabled, this policy has no effect.
 
-| ![](images/Cc708574.note(WS.10).gif)注                                                                                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| This policy setting does not allow non-administrative Terminal Services users to restart the remote computer where they are logged on. This is because, by default, non-administrative Terminal Services users do not have computer restart privileges. |
+> [!NOTE]
+> This policy setting does not allow non-administrative Terminal Services users to restart the remote computer where they are logged on. This is because, by default, non-administrative Terminal Services users do not have computer restart privileges. 
 
 **To prevent auto-restart for scheduled Automatic Update installation options**
 1.  In the Group Policy Object Editor, expand **Computer Configuration**, expand **Administrative Templates**, expand **Windows Components**, and then click **Windows Update**.
@@ -225,9 +221,8 @@ If the status is set to **Disabled** or **Not Configured**, Automatic Updates wi
 
 3.  Click **OK**.
 
-| ![](images/Cc708574.note(WS.10).gif)注                                                                                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| This policy setting does not allow non-administrative Terminal Services users to restart the remote computer where they are logged in. This is because, by default, non-administrative Terminal Services users do not have computer restart privileges. |
+> [!NOTE]
+> This policy setting does not allow non-administrative Terminal Services users to restart the remote computer where they are logged in. This is because, by default, non-administrative Terminal Services users do not have computer restart privileges. 
 
 Allow signed content from the intranet Microsoft update service location
 ------------------------------------------------------------------------

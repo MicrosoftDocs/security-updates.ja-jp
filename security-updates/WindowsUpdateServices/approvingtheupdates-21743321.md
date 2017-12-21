@@ -24,42 +24,14 @@ You can approve the installation of updates for all the computers in your WSUS n
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.Important(WS.10).gif" />重要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You cannot set a deadline for automatic installation for an update if user input is required (for example, specifying a setting relevant to the update). To determine whether an update will require user input, look at the <strong>May request user input</strong> field in the update properties for an update displayed on the <strong>Updates</strong> page. Also check for a message in the <strong>Approve Updates</strong> box that says, &quot;<strong>The selected update requires user input and does not support an installation deadline</strong>.&quot;
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> You cannot set a deadline for automatic installation for an update if user input is required (for example, specifying a setting relevant to the update). To determine whether an update will require user input, look at the <strong>May request user input</strong> field in the update properties for an update displayed on the <strong>Updates</strong> page. Also check for a message in the <strong>Approve Updates</strong> box that says, &quot;<strong>The selected update requires user input and does not support an installation deadline</strong>.&quot;
  
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.Important(WS.10).gif" />重要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If there are updates to the WSUS server component, you cannot approve other updates to client systems until the WSUS update is approved. You will see this warning message in the Approve Updates dialog box: &quot;There are WSUS updates that have not been approved. You should approve the WSUS updates before approving this update.&quot; In this case, you should click the WSUS Updates node and make sure that all of the updates in that view have been approved before returning to the general updates.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> If there are updates to the WSUS server component, you cannot approve other updates to client systems until the WSUS update is approved. You will see this warning message in the Approve Updates dialog box: &quot;There are WSUS updates that have not been approved. You should approve the WSUS updates before approving this update.&quot; In this case, you should click the WSUS Updates node and make sure that all of the updates in that view have been approved before returning to the general updates.
  
 
 **To approve updates**
@@ -97,22 +69,8 @@ You can approve the installation of updates for all the computers in your WSUS n
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">For more information about downloading and installing updates, see <a href="https://technet.microsoft.com/4fab785e-6f4c-418d-98dc-5addaf945b79">Best Practices with Windows Server Update Services 3.0</a>.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> For more information about downloading and installing updates, see <a href="https://technet.microsoft.com/4fab785e-6f4c-418d-98dc-5addaf945b79">Best Practices with Windows Server Update Services 3.0</a>.
  
 
 Declining Updates
@@ -150,22 +108,8 @@ You can approve an update for removal (that is, to uninstall an already-installe
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Not all updates support removal. You can see whether an update supports removal by selecting an individual update and looking at the <strong>Details</strong> pane. Under <strong>Additional Details</strong>, you will see the <strong>Removable</strong> category. If the update cannot be removed through WSUS, in many cases it can be removed with <strong>Add or Remove Programs</strong> from <strong>Control Panel</strong>.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Not all updates support removal. You can see whether an update supports removal by selecting an individual update and looking at the <strong>Details</strong> pane. Under <strong>Additional Details</strong>, you will see the <strong>Removable</strong> category. If the update cannot be removed through WSUS, in many cases it can be removed with <strong>Add or Remove Programs</strong> from <strong>Control Panel</strong>.
  
 
 **To approve updates for removal**
@@ -205,22 +149,8 @@ You can create rules that your WSUS server will automatically apply during synch
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Automatic approval rules will not apply to updates requiring an End User License Agreement (EULA) that has not yet been accepted on the server. If you find that applying an automatic approval rule does not cause all the relevant updates to be approved, you should approve these updates manually.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Automatic approval rules will not apply to updates requiring an End User License Agreement (EULA) that has not yet been accepted on the server. If you find that applying an automatic approval rule does not cause all the relevant updates to be approved, you should approve these updates manually.
  
 
 Automatically Approving Revisions to Updates and Declining Expired Updates
@@ -230,22 +160,8 @@ The **Automatic Approvals** section of the **Options** pane contains a default o
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">A revision is a version of an update that has changed (for example, it might have expired or have updated applicability rules).
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> A revision is a version of an update that has changed (for example, it might have expired or have updated applicability rules).
  
 
 **To automatically approve revisions to updates and decline expired updates**
@@ -257,22 +173,8 @@ The **Automatic Approvals** section of the **Options** pane contains a default o
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939929.Important(WS.10).gif" />重要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Keeping the default values for these options allows you maintain good performance on your WSUS network. If you do not want expired updates to be declined automatically, you should make sure to decline them manually on a periodic basis.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Keeping the default values for these options allows you maintain good performance on your WSUS network. If you do not want expired updates to be declined automatically, you should make sure to decline them manually on a periodic basis.
  
 
 Approving Superseding or Superseded Updates

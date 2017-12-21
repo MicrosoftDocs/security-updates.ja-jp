@@ -56,9 +56,8 @@ Use the following steps to migrate the WSUS database from a Windows Internal Dat
     -   Right-click **Update Services**, and then click **Start**.
 5.  Verify that the database migration has been successful by opening the WSUS administrative console (click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0)**.
 
-| ![](images/Cc708558.note(WS.10).gif)注     |
-|-------------------------------------------------------------------------|
-| You might have to restart the server for these settings to take effect. |
+> [!NOTE]
+> You might have to restart the server for these settings to take effect. 
 
 #### Migrating the WSUS database from a Windows Internal Database instance to a SQL Server 2005 instance on a remote server
 
@@ -116,9 +115,8 @@ In this step, you edit the registry to point WSUS to the destination SQL instanc
 -   Find the following key: **HKLM\\SOFTWARE\\Microsoft\\UpdateServices\\Server\\Setup\\SqlServerName**
 -   In the **Value** data box, type **\[BEName\]\\\[InstanceName\]**, and then click **OK**. If the instance name is the default instance, then simply type **\[BEName\]**.
 
-| ![](images/Cc708558.note(WS.10).gif)注 |
-|---------------------------------------------------------------------|
-| When typing \[BEName\], do not add the domain name before the name. |
+> [!NOTE]
+> When typing \[BEName\], do not add the domain name before the name. 
 
 #### Step 8 \[on FE\]: Start the IIS Admin service and the Update Services service.
 
@@ -130,9 +128,8 @@ In this step, you edit the registry to point WSUS to the destination SQL instanc
 
 Open the WSUS administrative console (click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0)**.
 
-| ![](images/Cc708558.note(WS.10).gif)注      |
-|--------------------------------------------------------------------------|
-| You might need to restart FE in order for these settings to take effect. |
+> [!NOTE]
+> You might need to restart FE in order for these settings to take effect. 
 
 For more information about the databases you can use with WSUS, see the following:
 

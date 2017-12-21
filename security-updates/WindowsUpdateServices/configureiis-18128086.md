@@ -22,9 +22,8 @@ If the IIS service (W3SVC) is stopped during WSUS installation, WSUS Setup start
 
 4.  Click **OK**, click **Next**, and then follow the instructions on the screen.
 
-| ![](images/Cc720452.note(WS.10).gif)注                                                                                        |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If this machine has been upgraded from Windows 2000, it may have the IIS 5.0 Isolation mode turned on. This must be turned off before installing WSUS 3.0. |
+> [!NOTE]
+> If this machine has been upgraded from Windows 2000, it may have the IIS 5.0 Isolation mode turned on. This must be turned off before installing WSUS 3.0. 
 
 **To install IIS 7.0 on Windows Server 2008**
 1.  Start the Server Manager (click **Start**, click **Run**, and then type **CompMgmtLauncher**).
@@ -73,9 +72,8 @@ Malicious programs can target port 80 for HTTP traffic. If WSUS is using a cust
 
 If you already have a Web site on the computer where you intend to install WSUS, you should use the setup option for creating a custom Web site. This option puts the WSUS Web site on port 8530. This port is not configurable.
 
-| ![](images/Cc720452.note(WS.10).gif)注                                    |
-|--------------------------------------------------------------------------------------------------------|
-| If you change the WSUS port number after WSUS installation, you must manually restart the IIS service. |
+> [!NOTE]
+> If you change the WSUS port number after WSUS installation, you must manually restart the IIS service. 
 
 #### Accessing WSUS on a custom port
 
@@ -91,9 +89,8 @@ Using host headers
 
 If you decide to use host headers, you should run the **configuressl** command after configuring WSUS. If you do not do so, WSUS Reporters may not be able to access the WSUS server.
 
-| ![](images/Cc720452.note(WS.10).gif)注                                                                          |
-|----------------------------------------------------------------------------------------------------------------------------------------------|
-| If you assign host header values to the default Web site, you might interfere with Windows® SharePoint® Services and Exchange functionality. |
+> [!NOTE]
+> If you assign host header values to the default Web site, you might interfere with Windows® SharePoint® Services and Exchange functionality. 
 
 **To run the configuress1 command**
 1.  Open a command window.
@@ -108,6 +105,5 @@ If you decide to use host headers, you should run the **configuressl** command a
 
     **Wsusutil configuressl**
 
-| ![](images/Cc720452.note(WS.10).gif)注                          |
-|----------------------------------------------------------------------------------------------|
-| The **configuressl** command sets both the host header name and the server certificate name. |
+> [!NOTE]
+> The **configuressl** command sets both the host header name and the server certificate name. 

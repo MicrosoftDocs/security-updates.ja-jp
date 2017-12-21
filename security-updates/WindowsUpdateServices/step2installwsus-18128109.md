@@ -81,6 +81,5 @@ The following procedure uses the default WSUS installation options for Windows S
 
 9.  If the final page of the wizard confirms that WSUS installation was successfully completed, click **Finish**.
 
-| ![](images/Cc720523.note(WS.10).gif)注                                                                                   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| After you install WSUS, you can delete the C:\\WSUSFiles folder. However, do not delete the C:\\WSUS folder, which is created when WSUS is installed. |
+> [!NOTE]
+> After you install WSUS, you can delete the C:\\WSUSFiles folder. However, do not delete the C:\\WSUS folder, which is created when WSUS is installed. 

@@ -20,22 +20,8 @@ You can store update files locally on the WSUS server. This saves bandwidth on y
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939920.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">The 30 GB recommendation is only an estimate based on a number of variables, such as the number of updates released by Microsoft for any given product, how many products and update languages are selected, and whether standard update files or express updates are to be downloaded. Although 30 GB should work for most customers, your particular situation might require more than 30 GB of disk space.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> The 30 GB recommendation is only an estimate based on a number of variables, such as the number of updates released by Microsoft for any given product, how many products and update languages are selected, and whether standard update files or express updates are to be downloaded. Although 30 GB should work for most customers, your particular situation might require more than 30 GB of disk space.
  
 
 Remote storage

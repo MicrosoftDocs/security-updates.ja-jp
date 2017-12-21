@@ -27,9 +27,8 @@ Stopping and restarting BITS
 
 Often it is possible to resolve BITS issues simply by stopping the service and restarting it. The following procedure shows how to stop and restart the service from the command line. You must be logged on as a local administrator to stop and restart BITS.
 
-| ![](images/Cc720473.note(WS.10).gif)注          |
-|------------------------------------------------------------------------------|
-| To modify, stop, or restart BITS, you must be logged on as an administrator. |
+> [!NOTE]
+> To modify, stop, or restart BITS, you must be logged on as an administrator. 
 
 **To stop and restart BITS**
 1.  Open a command shell.

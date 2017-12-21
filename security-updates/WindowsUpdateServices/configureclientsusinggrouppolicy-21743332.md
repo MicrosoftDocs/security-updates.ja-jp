@@ -17,22 +17,8 @@ After you set up a client computer, it will take a few minutes before it appears
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If you want to refresh Group Policy sooner, you can go to a command prompt on the client computer and type: <strong>gpupdate /force</strong>.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> If you want to refresh Group Policy sooner, you can go to a command prompt on the client computer and type: <strong>gpupdate /force</strong>.
  
 
 Load the WSUS Administrative Template
@@ -44,44 +30,16 @@ If the computer you are using to configure Group Policy has the latest version o
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.Important(WS.10).gif" />重要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You can find the correct version of wuau.adm on any computer that has the WSUS-compatible Automatic Updates installed. You can use the old version of wuau.adm to point Automatic Updates to the WSUS server in order to self-update for the first time. After Automatic Updates self-updates, the new wuau.adm file appears in the <em>%windir%</em>\Inf folder.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> You can find the correct version of wuau.adm on any computer that has the WSUS-compatible Automatic Updates installed. You can use the old version of wuau.adm to point Automatic Updates to the WSUS server in order to self-update for the first time. After Automatic Updates self-updates, the new wuau.adm file appears in the <em>%windir%</em>\Inf folder.
  
 
 If the computer you are using to configure Group Policy does not have the latest version of wuau.adm, you must first load it by using the following procedure.
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You can start the Group Policy editor by clicking <strong>Start</strong>, then <strong>Run</strong>, then typing <strong>gpedit.msc</strong>.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> You can start the Group Policy editor by clicking <strong>Start</strong>, then <strong>Run</strong>, then typing <strong>gpedit.msc</strong>.
  
 
 **To add the WSUS Administrative Template**
@@ -151,22 +109,8 @@ If the status is set to **Disabled** or **Not Configured**, no computer group in
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If you want to assign a client to more than one computer group, you should separate the computer group names with a semicolon plus a space: <em>Group1; Group2</em>.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> If you want to assign a client to more than one computer group, you should separate the computer group names with a semicolon plus a space: <em>Group1; Group2</em>.
  
 
 Reschedule Automatic Updates scheduled installations
@@ -200,22 +144,8 @@ If the status is set to **Disabled** or **Not Configured**, Automatic Updates wi
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">This policy setting does not allow non-administrative Terminal Services users to restart the remote computer where they are logged on. This is because, by default, non-administrative Terminal Services users do not have computer restart privileges.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> This policy setting does not allow non-administrative Terminal Services users to restart the remote computer where they are logged on. This is because, by default, non-administrative Terminal Services users do not have computer restart privileges.
  
 
 **To prevent auto-restart for scheduled Automatic Update installation options**
@@ -307,22 +237,8 @@ If the status is set to **Disabled** or **Not Configured**, Automatic Updates wi
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939933.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">This policy setting does not allow non-administrative Terminal Services users to restart the remote computer where they are logged in. This is because, by default, non-administrative Terminal Services users do not have computer restart privileges.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> This policy setting does not allow non-administrative Terminal Services users to restart the remote computer where they are logged in. This is because, by default, non-administrative Terminal Services users do not have computer restart privileges.
  
 
 Allow signed content from the intranet Microsoft update service location

@@ -28,9 +28,8 @@ The Configuration Wizard allows you to configure the following areas:
 -   [Choose Update Classifications](#bkmk_classifications)
 -   [Configure the Synchronization Schedule](#bkmk_syncschedule)
 
-| ![](images/Cc720475.note(WS.10).gif)注                             |
-|-------------------------------------------------------------------------------------------------|
-| You will need to configure the upstream server and proxy server before configuring the updates. |
+> [!NOTE]
+> You will need to configure the upstream server and proxy server before configuring the updates. 
 
 <span id="BKMK_upstream"></span>
 Choose the upstream server
@@ -75,9 +74,8 @@ Connect to the upstream server
 
 3.  After the connection has completed successfully, click **Next**. If you have chosen to store updates locally, you will go to the **Choose Languages** page, or you can select a different page from the left pane.
 
-| ![](images/Cc720475.note(WS.10).gif)注                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If the connection to your upstream WSUS server (either Microsoft Update or an intranet WSUS server) fails, you will see a message at the bottom of the screen. Typically it will say something like "An HTTP error occurred." For more information, click the **Details** link. |
+> [!NOTE]
+> If the connection to your upstream WSUS server (either Microsoft Update or an intranet WSUS server) fails, you will see a message at the bottom of the screen. Typically it will say something like "An HTTP error occurred." For more information, click the **Details** link. 
 
 <span id="BKMK_languages"></span>
 Choose update languages

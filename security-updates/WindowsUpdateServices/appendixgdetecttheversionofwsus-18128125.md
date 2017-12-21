@@ -15,9 +15,8 @@ Versioning in SUS 1.0
 ---------------------
 
         ```
-| ![](images/Cc720492.note(WS.10).gif)注                                     |
-|---------------------------------------------------------------------------------------------------------|
-| SUS 1.0 must be removed before installing WSUS 3.0.Upgrade between these two versions is not supported. |
+> [!NOTE]
+> SUS 1.0 must be removed before installing WSUS 3.0.Upgrade between these two versions is not supported. 
 
 Versioning in WSUS 2.0
 ----------------------
@@ -35,9 +34,8 @@ has an InstallType subkey with the following possible values:
 
 **FullInstall = 128**
 
-| ![](images/Cc720492.note(WS.10).gif)注                                                                                                                                                                                                                                    |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| You can upgrade from WSUS 2.0 to WSUS 3.0 for installations with the **Frontend** and **FullInstall** values. For the **Backend** value, you would uninstall WSUS, leaving the database behind. This database will be upgraded when the front-end WSUS server that points to the database is upgraded. |
+> [!NOTE]
+> You can upgrade from WSUS 2.0 to WSUS 3.0 for installations with the **Frontend** and **FullInstall** values. For the **Backend** value, you would uninstall WSUS, leaving the database behind. This database will be upgraded when the front-end WSUS server that points to the database is upgraded. 
 
 WSUS 3.0 pre-release candidate versions
 ---------------------------------------

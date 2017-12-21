@@ -20,9 +20,8 @@ This can happen under different circumstances. For example, if updates are store
 
 To have WSUS resynchronize the updates in local storage with the updates in the database, you must run the WSUSUtil utility **reset** command. For more information about WSUSUtil, see [Managing WSUS 3.0 from the Command Line](https://technet.microsoft.com/e0934a67-f0ed-41a3-bf57-78fd9ac94943).
 
-| ![](images/Cc708524.note(WS.10).gif)注                  |
-|--------------------------------------------------------------------------------------|
-| Performing a reset causes the WSUS server to be unresponsive for up to five minutes. |
+> [!NOTE]
+> Performing a reset causes the WSUS server to be unresponsive for up to five minutes. 
 
 **To have WSUS verify locally stored updates**
 1.  Open a command window.
@@ -69,9 +68,8 @@ The following procedures will help you overcome low disk space problems:
 
 where NewContentPath is the new content directory, and MoveLog is the path and filename of the log for this operation.
 
-| ![](images/Cc708524.note(WS.10).gif)注                                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| For more information about using the WSUSUtil utility, see [Managing WSUS 3.0 from the Command Line](https://technet.microsoft.com/e0934a67-f0ed-41a3-bf57-78fd9ac94943). |
+> [!NOTE]
+> For more information about using the WSUSUtil utility, see [Managing WSUS 3.0 from the Command Line](https://technet.microsoft.com/e0934a67-f0ed-41a3-bf57-78fd9ac94943). 
 
 Before you move the SQL Server installation to another drive, you should make sure that the WSUS administration console is not open. If you have problems with the move, make sure that the WSUS Web services have been stopped. Occasionally, a move will fail if the clients are communicating with the server.
 
@@ -90,6 +88,5 @@ Before you move the SQL Server installation to another drive, you should make su
 
 7.  When the system is working properly, delete SUSDB.mdf and SUSDB\_log.ldf from the old location.
 
-| ![](images/Cc708524.note(WS.10).gif)注                     |
-|-----------------------------------------------------------------------------------------|
-| Consult your SQL Server documentation to find out how to detach and reattach databases. |
+> [!NOTE]
+> Consult your SQL Server documentation to find out how to detach and reattach databases. 

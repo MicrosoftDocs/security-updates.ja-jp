@@ -17,9 +17,8 @@ You can generate different kinds of update reports from different places in the 
 2.  Reports on specific updates: right-click the update (or go to the **Actions** pane) and choose **Status Report.**
 3.  Reports on specific computers: right-click the computer (or go to the **Actions** pane)and choose **Status Report**.
 
-| ![](images/Cc720459.note(WS.10).gif)注                                                                                                                                                                                                                                                                                                                       |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Generating detailed reports for large numbers of computers and/or updates can be very memory-intensive. Detailed reports are most effective for smaller subsets of your computers or updates. If you need to create a very large report and are concerned about using CPU and memory resources on the WSUS server, you may generate the report from a remote WSUS Administration console. |
+> [!NOTE]
+> Generating detailed reports for large numbers of computers and/or updates can be very memory-intensive. Detailed reports are most effective for smaller subsets of your computers or updates. If you need to create a very large report and are concerned about using CPU and memory resources on the WSUS server, you may generate the report from a remote WSUS Administration console. 
 
 Using the Reports page
 ----------------------

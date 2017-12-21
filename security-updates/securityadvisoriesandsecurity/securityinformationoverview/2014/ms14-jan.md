@@ -4,9 +4,7 @@ Title: 2014 年 1 月のセキュリティ情報
 ms:assetid: 'ms14-jan'
 ms:contentKeyID: 61597944
 ms:mtpsurl: 'https://technet.microsoft.com/ja-JP/library/ms14-jan(v=Security.10)'
----
-
-Security Bulletin Summary
+--- Summary
 
 2014 年 1 月のセキュリティ情報
 ==============================

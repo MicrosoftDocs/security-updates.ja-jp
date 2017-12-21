@@ -11,15 +11,15 @@ To Configure Windows Firewall
 
 Windows Firewall is a host-based firewall application that is installed with Microsoft Windows XP Service Pack 2 (SP2), Windows Server 2003 with Service Pack 1 (SP1), and Windows Vista®. Unlike Windows XP with SP2 and Windows Vista, Windows Firewall in Windows Server 2003 with SP1 is not turned on by default. If you would like to use the functionality of Windows Firewall within your RMS infrastructure, you must create a few firewall exceptions. These exceptions are described below.
 
-| ![](images/Cc747747.note(WS.10).gif)注                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| This topic discusses only the firewall exceptions that should be added specific to RMS. It is likely that additional exceptions need to be made for other applications. |
+> [!NOTE]
+> This topic discusses only the firewall exceptions that should be added specific to RMS. It is likely that additional exceptions need to be made for other applications. 
 
 On the Active Directory domain controllers, the following Windows Firewall exceptions should be made:
 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -48,6 +48,7 @@ The following table shows the port exceptions that should be made on the RMS ser
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -76,6 +77,7 @@ If the logging database server is not on a server in the RMS cluster, the follow
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

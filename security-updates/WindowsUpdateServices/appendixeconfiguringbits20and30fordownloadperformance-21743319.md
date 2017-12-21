@@ -20,22 +20,8 @@ Versions of BITs use the computer's network card to measure network traffic. BIT
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939927.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">BITS bandwidth limitations are system wide, not application specific. You cannot use this setting to limit only WSUS download bandwidth, because the BITS settings will affect BITS in any application.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> BITS bandwidth limitations are system wide, not application specific. You cannot use this setting to limit only WSUS download bandwidth, because the BITS settings will affect BITS in any application.
  
 
 **To set BITS bandwidth limitations**
@@ -55,22 +41,8 @@ Versions of BITs use the computer's network card to measure network traffic. BIT
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939927.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You must be an administrator to perform this procedure.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> You must be an administrator to perform this procedure.
  
 
 Peer caching
@@ -88,22 +60,8 @@ This feature of BITS can optimize the bandwidth used by WSUS in several ways.
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939927.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">BITS peer caching requires computers to be running Windows Vista or Windows Server 2008, and to be part of an Active Directory Domain.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> BITS peer caching requires computers to be running Windows Vista or Windows Server 2008, and to be part of an Active Directory Domain.
  
 
 For more information about peer caching and peer servers, see [Peer Caching](http://go.microsoft.com/fwlink/?linkid=79432) (http://go.microsoft.com/fwlink/?LinkId=79432).
@@ -123,19 +81,5 @@ For more information about peer caching and peer servers, see [Peer Caching](htt
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939927.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You must be an administrator to perform this procedure.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> You must be an administrator to perform this procedure.

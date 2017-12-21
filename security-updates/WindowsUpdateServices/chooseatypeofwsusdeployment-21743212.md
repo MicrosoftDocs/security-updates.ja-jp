@@ -18,22 +18,8 @@ The most basic WSUS deployment consists of a server inside the corporate firewal
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939820.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Initial synchronization can take over an hour. All synchronizations after that should be significantly shorter.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Initial synchronization can take over an hour. All synchronizations after that should be significantly shorter.
  
 
 By default, the WSUS server uses port 80 for HTTP protocol and port 443 for HTTPS protocol to obtain updates from Microsoft. If there is a corporate firewall between your network and the Internet, you will have to open these ports on the server that communicates directly to Microsoft Update. If you are planning to use custom ports for this communication, you will have to open those ports instead.
@@ -58,22 +44,8 @@ One benefit of creating computer groups is that it enables you to test updates. 
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939820.note(WS.10).gif" />メモ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Do not use WSUS to distribute updates to client computers that are not licensed for your organization. The WSUS license agreement specifically disallows this.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Do not use WSUS to distribute updates to client computers that are not licensed for your organization. The WSUS license agreement specifically disallows this.
  
 
 WSUS server hierarchies

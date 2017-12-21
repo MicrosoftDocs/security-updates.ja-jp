@@ -17,9 +17,8 @@ Setting up WSUS for remote SQL is a three-step process:
 2.  Check that the administrator who is going to install WSUS 3.0 also has permissions on SQL Server
 3.  Install WSUS 3.0 on the front-end computer, and configure it to use the database on the back-end computer.
 
-| ![](images/Cc708595.note(WS.10).gif)注                                                                                   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| For a remote SQL installation on WSUS 3.0, you install WSUS on the front-end computer only. You do not need to install WSUS on the back-end computer. |
+> [!NOTE]
+> For a remote SQL installation on WSUS 3.0, you install WSUS on the front-end computer only. You do not need to install WSUS on the back-end computer. 
 
 Remote SQL limitations
 ----------------------
@@ -94,6 +93,5 @@ Run WSUS Setup from the command line, using the **SQLINSTANCE\_NAME=***servernam
 
 2.  You will see the **Welcome** page of the installation wizard. Continue installing WSUS as in the procedure given in [Run WSUS 3.0 Server Setup](https://technet.microsoft.com/0562aa65-72ce-4d86-b1cb-dbee34c51de3).
 
-| ![](images/Cc708595.note(WS.10).gif)注                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------|
-| After you have completed the WSUS 3.0 installation, you can delete the SQL Server account set up in Step 2, if you wish to do so. |
+> [!NOTE]
+> After you have completed the WSUS 3.0 installation, you can delete the SQL Server account set up in Step 2, if you wish to do so. 

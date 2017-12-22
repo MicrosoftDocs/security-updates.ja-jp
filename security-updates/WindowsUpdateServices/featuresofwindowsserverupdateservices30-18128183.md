@@ -77,8 +77,11 @@ Targeting enables administrators to deploy updates to specific computers and gro
 The following are examples of targeting tasks that administrators can perform:
 
 -   Deploying new updates to a test computer group and then evaluating the updates before distributing them to the production environment.
+
 -   Protecting computers that run specific applications. For example, if a critical update is incompatible with an application used by only certain computers, an administrator can make sure that the update is not distributed to those computers.
+
 -   Specifying a deadline by which an update must be installed, and then setting different deadlines for different computers or computer groups.
+
 -   Making the same computer a member of more than one group. For example, a computer could be a member of the "Test" group and also a member of the "Special Applications" group.
 
 #### Database options
@@ -105,10 +108,15 @@ WSUS 3.0 now allows administrators to manage a WSUS server hierarchy from a sing
 Using WSUS reports, administrators can monitor the following activity (all reports are in a printable format and can be exported to Excel spreadsheets or Adobe .pdf files):
 
 -   **Update status**: Administrators can monitor the level of update compliance for their client computers on an ongoing basis using Update Status reports, which can provide status for update approval and deployment per update, per computer, and per computer group, based on all events that are sent from the client computer.
+
 -   **Computer status**: Administrators can assess the status of updates on client computers. For example, they can request a summary of updates that have been installed or are needed for a particular computer.
+
 -   **Computer compliance status**: Administrators can view or print a summary of compliance information for a specific computer, including basic software and hardware information, WSUS activity, and update status.
+
 -   **Update compliance status**: Administrators can view or print a summary of compliance information for a specific update, including the update properties and cumulative status for each computer group.
+
 -   **Synchronization (or download) status**: Administrators can monitor synchronization activity and status for a given time period, and view the latest updates that have been downloaded.
+
 -   **WSUS configuration settings**: Administrators can see a summary of options they have specified for their WSUS implementation.
 
 #### Troubleshooting

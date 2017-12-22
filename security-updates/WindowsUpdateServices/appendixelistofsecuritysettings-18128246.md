@@ -431,9 +431,8 @@ Configure Windows Server 2003 security settings to help ensure optional securit
 </tbody>
 </table>
   
-| ![](images/Cc708490.Important(WS.10).gif)重要                                                                                                                                                                                                                                                                                                                               |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| The WSUS subdirectories UpdateServicesPackages, WsusContent, and WsusTemp created as shared directories (for WSUS Administrators and the Network Service account) as part of WSUS setup. These directories can be found by default under the WSUS directory at the root of the largest partition on the WSUS server. Sharing of these directories may be disabled if you are not using local publishing. |
+> [!IMPORTANT]  
+> The WSUS subdirectories UpdateServicesPackages, WsusContent, and WsusTemp created as shared directories (for WSUS Administrators and the Network Service account) as part of WSUS setup. These directories can be found by default under the WSUS directory at the root of the largest partition on the WSUS server. Sharing of these directories may be disabled if you are not using local publishing.
   
 #### Event log settings
   

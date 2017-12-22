@@ -26,13 +26,17 @@ Updates that have deadlines and require restarts will cause a forced restart at 
 Moreover, if the computer is pending restart (because another update requiring a restart was installed, but the computer was not restarted), and an update with a deadline is installed, the computer will be restarted. The following is an example of client behavior with an unexpired deadline:
 
 1.  Update 1, which has no deadline but requires restart, is installed at 1:00 A.M., and the computer is not restarted.
+
 2.  Update 2, which has a deadline of 6:00 A.M. and does not require restart, is downloaded and installed at 3:00 A.M.
+
 3.  The computer is restarted at 6:00 A.M. (the deadline of Update 2).
 
 The following is an example of client behavior with an expired deadline:
 
 1.  Update 1, which has no deadline but requires restart, is installed at 2:00 A.M., and the computer is not restarted.
+
 2.  Update 2, which has a deadline of 1:00 A.M. and does not require restart, is downloaded and installed at 3:00 A.M.
+
 3.  The computer is restarted after Update 2 is installed, at 3:00 A.M. (the first possible restart time).
 
 WSUS updates and deadlines
@@ -41,7 +45,9 @@ WSUS updates and deadlines
 A WSUS update (an update that is required in order for WSUS to continue functioning correctly) has installation priority over other kinds of update. If an update with a deadline is *blocked* by a WSUS update, the deadline will apply to the WSUS update, as in the following sequence of events:
 
 1.  Update 1, which is a WSUS update with a deadline of 6:00 A.M., and Update 2, which is a non-WSUS update with a deadline of 2:00 A.M., are both downloaded at 1 A.M.
+
 2.  The next scheduled install is at 3:00 A.M.
+
 3.  The install of Update 1 starts at 2:00 A.M.
 
 If the deadline of a blocked update has expired, the WSUS update that is blocking it will be installed immediately.

@@ -22,6 +22,7 @@ WSUS enables you to download update metadata before downloading the update itsel
 If you have a chain of WSUS servers, it is recommended that you do not chain them too deeply, for the following reasons:
 
 -   In a chain of WSUS servers, WSUS automatically sets all downstream servers to use the deferred download option that is selected on the highest upstream server—in other words, the server that is directly connected to Microsoft Update. However, you may change this configuration (for example, to keep an upstream server doing full synchronization, while downstream servers defer their downloads).
+
 -   If you have deferred downloads enabled and a downstream server requests an update that has not been approved on the upstream server, the downstream server’s request triggers a download on the upstream server. The downstream server then downloads the content on a subsequent synchronization, as shown in the "Deferred Downloads Using Multiple WSUS Servers" illustration. If you have a deep hierarchy of WSUS servers using deferred downloads, there is greater potential for delay as content is requested, downloaded, and then passed down the chain.
 
 ![](images/Dd939908.7858baf2-f6c3-4e87-ad8d-a06a20aa5dd8(WS.10).gif)

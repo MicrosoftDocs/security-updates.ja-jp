@@ -22,7 +22,7 @@ If the IIS service (W3SVC) is stopped during WSUS installation, WSUS Setup start
 
 4.  Click **OK**, click **Next**, and then follow the instructions on the screen.
 
-> [!NOTE]
+> [!NOTE]  
 > If this machine has been upgraded from Windows 2000, it may have the IIS 5.0 Isolation mode turned on. This must be turned off before installing WSUS 3.0. 
 
 **To install IIS 7.0 on Windows Server 2008**
@@ -56,7 +56,15 @@ After installing IIS 7.0 on Windows Server 2008, you will need to update the II
 
 3. In the `<system.webServer><modules>` tag, add `<remove name="CustomErrorModule">`.
 
-        ```
+The resulting tag should look like this:
+
+```
+<system.webServer>
+<modules>
+<remove name="CustomErrorModule">
+</modules>
+</system.webServer>
+```
 
 Client self-update
 ------------------
@@ -72,7 +80,7 @@ Malicious programs can target port 80 for HTTP traffic. If WSUS is using a cust
 
 If you already have a Web site on the computer where you intend to install WSUS, you should use the setup option for creating a custom Web site. This option puts the WSUS Web site on port 8530. This port is not configurable.
 
-> [!NOTE]
+> [!NOTE]  
 > If you change the WSUS port number after WSUS installation, you must manually restart the IIS service. 
 
 #### Accessing WSUS on a custom port
@@ -89,7 +97,7 @@ Using host headers
 
 If you decide to use host headers, you should run the **configuressl** command after configuring WSUS. If you do not do so, WSUS Reporters may not be able to access the WSUS server.
 
-> [!NOTE]
+> [!NOTE]    
 > If you assign host header values to the default Web site, you might interfere with Windows® SharePoint® Services and Exchange functionality. 
 
 **To run the configuress1 command**
@@ -105,5 +113,5 @@ If you decide to use host headers, you should run the **configuressl** command a
 
     **Wsusutil configuressl**
 
-> [!NOTE]
+> [!NOTE]  
 > The **configuressl** command sets both the host header name and the server certificate name. 

@@ -13,15 +13,11 @@ Determine WSUS Capacity Requirements
 
 Hardware and database software requirements are driven by the number of client computers being updated in your organization. The following tables offer guidelines for server hardware and database software, based on the number of client computers being serviced. A WSUS server using the recommended hardware can support a maximum number of 30,000 clients. Both the system partition and the partition on which you install WSUS must be formatted with the NTFS file system.
 
- 
-<p> </p>
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > WSUS 3.0 cannot be installed on a compressed drive. Please check that the drive you choose is not compressed.
  
-
 ### Minimum hardware recommendations
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -115,5 +111,5 @@ Hardware and database software requirements are driven by the number of client c
 
  
 <p> </p>
-> [!NOTE]
+> [!NOTE]  
 > Increasing the number of languages will also increase the load. Supporting five languages rather than one language will approximately double the size of the content directory.

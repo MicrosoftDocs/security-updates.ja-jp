@@ -14,14 +14,20 @@ The way you detect the version of a WSUS installation has changed in WSUS 3.0. I
 Versioning in SUS 1.0
 ---------------------
 
-        ```
-> [!NOTE]
+Check for the install state of the following Windows Installer product key:
+
+`{AFF0D9D3-6F0D-437E-9327-98108B4A8644}`
+
+> [!NOTE]  
 > SUS 1.0 must be removed before installing WSUS 3.0.Upgrade between these two versions is not supported. 
 
 Versioning in WSUS 2.0
 ----------------------
 
-        ```
+Check for the install state of the following Windows Installer product key:
+
+`{A0D46DC6-8950-451A-8990-53C86E17666E}`
+
 In WSUS 2.0, the WSUS registry key:
 
 **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Update Services\\Server\\Setup**
@@ -34,7 +40,7 @@ has an InstallType subkey with the following possible values:
 
 **FullInstall = 128**
 
-> [!NOTE]
+> [!NOTE]  
 > You can upgrade from WSUS 2.0 to WSUS 3.0 for installations with the **Frontend** and **FullInstall** values. For the **Backend** value, you would uninstall WSUS, leaving the database behind. This database will be upgraded when the front-end WSUS server that points to the database is upgraded. 
 
 WSUS 3.0 pre-release candidate versions

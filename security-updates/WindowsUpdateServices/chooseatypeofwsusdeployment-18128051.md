@@ -65,9 +65,8 @@ The downstream server must always synchronize to an upstream server, as in the "
 
 When you set up a WSUS server hierarchy, you should point Automatic Updates on all WSUS servers to the farthest downstream WSUS server in the hierarchy. This shields the entire chain from server-to-server protocol-breaking changes, because the downstream WSUS server can be used to update the broken upstream WSUS servers via Automatic Updates.
 
-| ![](images/Cc720448.Important(WS.10).gif)重要                                                                                                                                                                                                                                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If you have multiple downstream servers, you should not configure them to synchronize updates and roll up results at the same time of day. Downstream servers roll up information to their upstream server immediately after they synchronize. This may cause a high load on the upstream server, resulting in rollup failures. You must configure different downstream servers to synchronize at different times of day. |
+> [!IMPORTANT]  
+> If you have multiple downstream servers, you should not configure them to synchronize updates and roll up results at the same time of day. Downstream servers roll up information to their upstream server immediately after they synchronize. This may cause a high load on the upstream server, resulting in rollup failures. You must configure different downstream servers to synchronize at different times of day.
 
 Distributing updates in different languages within a server hierarchy
 ---------------------------------------------------------------------

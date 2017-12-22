@@ -49,15 +49,15 @@ The keys and their value ranges are listed in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><strong>AcceptTrustedPublisherCerts</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 1|0
-1 = Enabled. The WSUS server will distribute signed third-party updates if available.
+<td style="border:1px solid black;">Range = 1|0<br/>
+1 = Enabled. The WSUS server will distribute signed third-party updates if available.<br/>
 0 = Disabled. The WSUS server will not distribute third-party updates.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>ElevateNonAdmins</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 1|0
-1 = Users in the Users security group are allowed to approve or disapprove updates.
+<td style="border:1px solid black;">Range = 1|0<br/>
+1 = Users in the Users security group are allowed to approve or disapprove updates.<br/>
 0 = Only users in the Administrators user group can approve or disapprove updates.</td>
 </tr>
 <tr class="odd">
@@ -69,7 +69,7 @@ The keys and their value ranges are listed in the following table.
 <td style="border:1px solid black;"><strong>TargetGroupEnabled</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 <td style="border:1px solid black;">Range = 1|0
-1 = Use client-side targeting.
+1 = Use client-side targeting.<br/>
 0 = Do not use client-side targeting. This policy is paired with <strong>TargetGroup</strong>.</td>
 </tr>
 <tr class="odd">

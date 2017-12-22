@@ -60,7 +60,7 @@ You must create the new path for local WSUS update storage before moving the con
 
 2.  Navigate to the directory that contains WSUSutil.exe:
 
-    **cd** *WSUSInstallationDirectory***\\Tools**.
+    **cd** *WSUSInstallationDirectory* **\\Tools**.
 
 3.  Type the following command:
 
@@ -72,5 +72,5 @@ You must create the new path for local WSUS update storage before moving the con
 
     where **D:\\WSUS1** is the new path for local WSUS update storage, and **D:\\move.log** is the path to the log file.
 
-> [!NOTE]
+> [!NOTE]  
 > If you do not want to use WSUSutil.exe to change the location of local WSUS update storage, you can also use NTFS functionality to add a partition to the current location of local WSUS update storage. For more information about NTFS, see [NTFS technical documentation](http://go.microsoft.com/fwlink/?linkid=79488) (http://go.microsoft.com/fwlink/?LinkId=79488). 

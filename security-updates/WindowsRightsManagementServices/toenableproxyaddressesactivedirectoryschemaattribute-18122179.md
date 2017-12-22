@@ -13,9 +13,9 @@ RMS provides the proxy-addresses schema attribute for the discovery of additiona
 
 By default the values in the proxy-addresses schema attribute are not replicated to the Global Catalog. You must either adjust the settings on the proxy-addresses schema attribute manually or install Microsoft Exchange Server.
 
-| ![](images/Cc720282.Important(WS.10).gif)重要                                                                   |
-|----------------------------------------------------------------------------------------------------------------------------------------------|
-| If you are using Microsoft Exchange Server, these steps are not required because Exchange Server enables this attribute during installation. |
+
+> [!IMPORTANT]
+> If you are using Microsoft Exchange Server, these steps are not required because Exchange Server enables this attribute during installation. 
 
 If you are not using Microsoft Exchange Server in your environment but would like to take advantage of the proxy-addresses schema attribute, you must enable and populate the proxy-addresses schema attribute manually.
 

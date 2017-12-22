@@ -20,4 +20,4 @@ Updating Microsoft SQL Server and Microsoft Exchange Servers that are part of a 
 Both Microsoft SQL Server and Microsoft Exchange Server can be installed in a *clustered environment*. If there is an update available for clustered servers, each server in the cluster must be updated individually. Microsoft recommends that you update passive cluster nodes individually. You will need to stop the cluster service for each server while you update it, and then restart the service.
 
 > [!NOTE]
-> You can have both a stand-alone instance and a clustered instance of SQL Server on the same server. If you are updating a server that is running both a stand-alone instance and a clustered instance of SQL server, both SQL Server instances will be updated if you have specified the correct synchronization options. 
+> You can have both a stand-alone instance and a clustered instance of SQL Server on the same server. If you are updating a server that is running both a stand-alone instance and a clustered instance of SQL server, both SQL Server instances will be updated if you have specified the correct synchronization options.

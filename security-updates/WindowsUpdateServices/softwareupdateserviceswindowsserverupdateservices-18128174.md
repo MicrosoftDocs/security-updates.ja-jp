@@ -37,8 +37,8 @@ WSUS をインストールすると、WSUS コンソールにアクセスし、W
 
 -   WSUS サーバーで \[スタート\] ボタンをクリックし、\[すべてのプログラム\]、\[管理ツール\] の順にポイントし、\[Microsoft Windows Server Update Services\] をクリックします。
 
-![](images/Cc708455.note(ja-jp,WS.10).gif)**注 :**
-WSUS コンソールを使用するには、WSUS がインストールされているサーバーで、WSUS Administrators またはローカル Administrators セキュリティ グループのいずれかのメンバである必要があります。
+> [!NOTE]  
+> WSUS コンソールを使用するには、WSUS がインストールされているサーバーで、WSUS Administrators またはローカル Administrators セキュリティ グループのいずれかのメンバである必要があります。
 
 http://&lt;WSUS Web サイト名&gt; を、Windows Server 2003 の Internet Explorer でローカル イントラネット ゾーンのサイト一覧に追加していない場合、WSUS コンソールを開くたびに、資格情報の入力を求めるメッセージが表示されることがあります。
 

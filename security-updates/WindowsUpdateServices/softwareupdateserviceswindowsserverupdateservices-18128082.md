@@ -23,9 +23,8 @@ SUS インストール済みの Windows 2000 Server に WSUS をインストー�
 
 1.  インストーラ ファイル **WSUSSetup.exe** をダブルクリックします。
 
-    > [!NOTE]
-
->     WSUSSetup.exe の最新バージョンは、Windows Server Update Services に関する [Microsoft の Web サイト](http://go.microsoft.com/fwlink/?linkid=47374) (http://go.microsoft.com/fwlink/?LinkId=47374)で入手できます。
+    > [!NOTE]  
+    > WSUSSetup.exe の最新バージョンは、Windows Server Update Services に関する [Microsoft の Web サイト](http://go.microsoft.com/fwlink/?linkid=47374) (http://go.microsoft.com/fwlink/?LinkId=47374)で入手できます。
 
 2.  ウィザードの開始ページで、\[次へ\] をクリックします。
 

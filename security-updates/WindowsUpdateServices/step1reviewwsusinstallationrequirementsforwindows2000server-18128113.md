@@ -24,12 +24,19 @@ Software Requirements
 To install WSUS with default options, you must have the following installed on your computer. For more information about WSUS software requirements, see the “Deploying Microsoft Windows Server Update Services” white paper. If any of these updates require restarting the computer when installation is completed, you should restart your server prior to installing WSUS.
 
 -   Windows 2000 Server Service Pack 4: Go to [http://go.microsoft.com/fwlink/?LinkId=49072](http://go.microsoft.com/fwlink/?linkid=49072).
+
 -   Microsoft Internet Information Services (IIS) 5.0. For instruction about how to install IIS, see the “Deploying Microsoft Windows Server Update Services” white paper or Help and Support Center in Windows 2000 Server.
+
 -   Background Intelligent Transfer Service (BITS) 2.0: Go to [http://go.microsoft.com/fwlink/?LinkId=46794](http://go.microsoft.com/fwlink/?linkid=46794).
+
 -   Database software that is 100-percent compatible with Microsoft SQL. To obtain Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Release A, go to [http://go.microsoft.com/fwlink/?LinkId=47366](http://go.microsoft.com/fwlink/?linkid=47366).
+
 -   Microsoft Internet Explorer 6.0 Service Pack 1: Go [http://go.microsoft.com/fwlink/?LinkId=47359](http://go.microsoft.com/fwlink/?linkid=47359).
+
 -   Microsoft .NET Framework Version 1.1 Redistributable Package: Go to [http://go.microsoft.com/fwlink/?LinkId=47369](http://go.microsoft.com/fwlink/?linkid=47369).
+
 -   Microsoft .NET Framework 1.1 Service Pack 1; go to [http://go.microsoft.com/fwlink/?LinkId=47368](http://go.microsoft.com/fwlink/?linkid=47368).
+
     An alternative is to go to [Windows Update](http://go.microsoft.com/fwlink/?linkid=47370) and scan for Critical Updates and Service Packs. Install Microsoft .NET Framework 1.1 Service Pack 1 for Windows Server 2000.
 
 Disk Requirements and Recommendations
@@ -38,7 +45,9 @@ Disk Requirements and Recommendations
 In order for you to install WSUS, the file system of the server must meet the following requirements:
 
 -   Both the system partition and the partition on which you install WSUS must be formatted with the NTFS file system.
+
 -   A minimum of 1 GB free space is required for the system partition.
+
 -   A minimum of 6 GB free space is required for the volume where WSUS stores content; 30 GB is recommended.
 
 Automatic Updates Requirements
@@ -47,5 +56,7 @@ Automatic Updates Requirements
 Automatic Updates is the client component of WSUS. Automatic Updates has no hardware requirements other than being connected to the network. You can use Automatic Updates with WSUS on computers running any of the following operating systems:
 
 -   Microsoft Windows 2000 Professional with Service Pack 3 (SP3) or Service Pack 4 (SP4), Windows 2000 Server with SP3 or SP4, or Windows 2000 Advanced Server with SP3 or SP4.
+
 -   Microsoft Windows XP Professional, with or without Service Pack 1 or Service Pack 2.
+
 -   Microsoft Windows Server 2003, Standard Edition; Windows Server 2003, Enterprise Edition; Windows Server 2003, Datacenter Edition; or Windows Server 2003, Web Edition.

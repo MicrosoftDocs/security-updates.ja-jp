@@ -59,7 +59,15 @@ After installing IIS 7.0 on Windows Server 2008, you will need to update the II
 
 3. In the `<system.webServer><modules>` tag, add `<remove name="CustomErrorModule">`.
 
-        ```
+The resulting tag should look like this:
+
+```
+<system.webServer>
+<modules>
+<remove name="CustomErrorModule">
+</modules>
+</system.webServer>
+```
 
 Client self-update
 ------------------
@@ -107,7 +115,7 @@ If you decide to use host headers, you should run the **configuressl** command a
 
 2.  Navigate to the WSUS Tools directory:
 
-    **cd***WSUSInstallDir***\\Tools**
+    **cd** *WSUSInstallDir* **\\Tools**
 
     where WSUSInstallDir is the directory in which WSUS is installed.
 
@@ -117,5 +125,5 @@ If you decide to use host headers, you should run the **configuressl** command a
 
  
 <p> </p>
-> [!NOTE]
+> [!NOTE]  
 > The <strong>configuressl</strong> command sets both the host header name and the server certificate name.

@@ -25,9 +25,8 @@ Before you can set any Group Policy options for WSUS, you must ensure that the l
 
 If the computer you are using to configure Group Policy has the latest version of wuau.adm, you do not need to load the file to configure settings. The new version of wuau.adm is available on Windows XP with Service Pack 2. Administrative template files are stored by default in the *%windir%*\\Inf directory.
 
-| ![](images/Cc708574.Important(WS.10).gif)重要                                                                                                                                                                                                                                                                                  |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| You can find the correct version of wuau.adm on any computer that has the WSUS-compatible Automatic Updates installed. You can use the old version of wuau.adm to point Automatic Updates to the WSUS server in order to self-update for the first time. After Automatic Updates self-updates, the new wuau.adm file appears in the *%windir%*\\Inf folder. |
+> [!IMPORTANT]  
+> You can find the correct version of wuau.adm on any computer that has the WSUS-compatible Automatic Updates installed. You can use the old version of wuau.adm to point Automatic Updates to the WSUS server in order to self-update for the first time. After Automatic Updates self-updates, the new wuau.adm file appears in the *%windir%*\\Inf folder.
 
 If the computer you are using to configure Group Policy does not have the latest version of wuau.adm, you must first load it by using the following procedure.
 

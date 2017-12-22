@@ -22,6 +22,7 @@ WSUS enables you to download update metadata before downloading the update itsel
 If you have a chain of WSUS servers, it is recommended that you do not chain them too deeply, for the following reasons:
 
 -   In a chain of WSUS servers, WSUS automatically sets all downstream servers to use the deferred download option that is selected on the highest upstream server—in other words, the server that is directly connected to Microsoft Update. However, you may change this configuration (for example, to keep an upstream server doing full synchronization, while downstream servers defer their downloads).
+
 -   If you have deferred downloads enabled and a downstream server requests an update that has not been approved on the upstream server, the downstream server’s request triggers a download on the upstream server. The downstream server then downloads the content on a subsequent synchronization, as shown in the "Deferred Downloads Using Multiple WSUS Servers" illustration. If you have a deep hierarchy of WSUS servers using deferred downloads, there is greater potential for delay as content is requested, downloaded, and then passed down the chain.
 
 ![](images/Cc708603.7858baf2-f6c3-4e87-ad8d-a06a20aa5dd8(WS.10).gif)
@@ -52,9 +53,8 @@ The upper part of the "Express Installation Files Feature" illustration shows an
 
 The file sizes in the "Express Installation Files Feature" illustration are for illustrative purposes only. Each update and express installation file varies in size, depending on what files need to be updated. Further, the size of each file actually distributed to clients by using express installation files varies depending upon the state of the computer being updated.
 
-| ![](images/Cc708603.Important(WS.10).gif)重要                                                                                                                                                                              |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Express installation files are often larger than the updates they are meant to distribute. On the other hand, it is always less expensive to distribute updates within a network using express installation files than to distribute full update files. |
+> [!IMPORTANT]  
+> Express installation files are often larger than the updates they are meant to distribute. On the other hand, it is always less expensive to distribute updates within a network using express installation files than to distribute full update files.
 
 Not all updates are good candidates for distribution using express installation files. If you select this option, you obtain express installation files for any updates being distributed this way. If you are not storing updates locally, you cannot use the express installation files feature. By default, WSUS does not use express installation files. To enable this option, see [Advanced Synchronization Options](https://technet.microsoft.com/65d4cddd-8de0-477f-833d-ce5e2422eef0).
 

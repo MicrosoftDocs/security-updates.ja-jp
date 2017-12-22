@@ -22,13 +22,11 @@ You can approve the installation of updates for all the computers in your WSUS n
 -   Set a deadline for automatic installation. When you select this option, you set specific times and dates to install updates, overriding any settings on the client computers. In addition, you can specify a past date for the deadline if you want to approve an update immediately (to be installed the next time client computers contact the WSUS server).
 -   Remove an installed update if that update supports removal.
 
-| ![](images/Cc708474.Important(WS.10).gif)重要                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| You cannot set a deadline for automatic installation for an update if user input is required (for example, specifying a setting relevant to the update). To determine whether an update will require user input, look at the **May request user input** field in the update properties for an update displayed on the **Updates** page. Also check for a message in the **Approve Updates** box that says, "**The selected update requires user input and does not support an installation deadline**." |
+> [!IMPORTANT]  
+> You cannot set a deadline for automatic installation for an update if user input is required (for example, specifying a setting relevant to the update). To determine whether an update will require user input, look at the **May request user input** field in the update properties for an update displayed on the **Updates** page. Also check for a message in the **Approve Updates** box that says, "**The selected update requires user input and does not support an installation deadline**."
 
-| ![](images/Cc708474.Important(WS.10).gif)重要                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If there are updates to the WSUS server component, you cannot approve other updates to client systems until the WSUS update is approved. You will see this warning message in the Approve Updates dialog box: "There are WSUS updates that have not been approved. You should approve the WSUS updates before approving this update." In this case, you should click the WSUS Updates node and make sure that all of the updates in that view have been approved before returning to the general updates. |
+> [!IMPORTANT]  
+> If there are updates to the WSUS server component, you cannot approve other updates to client systems until the WSUS update is approved. You will see this warning message in the Approve Updates dialog box: "There are WSUS updates that have not been approved. You should approve the WSUS updates before approving this update." In this case, you should click the WSUS Updates node and make sure that all of the updates in that view have been approved before returning to the general updates.
 
 **To approve updates**
 1.  In the WSUS administrative console, click **Updates**.
@@ -155,9 +153,8 @@ The **Automatic Approvals** section of the **Options** pane contains a default o
 
 3.  Click **OK**.
 
-| ![](images/Cc708474.Important(WS.10).gif)重要                                                                                                                                                                  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Keeping the default values for these options allows you maintain good performance on your WSUS network. If you do not wish expired updates to be declined automatically, you should make sure to decline them manually on a periodic basis. |
+> [!IMPORTANT]  
+> Keeping the default values for these options allows you maintain good performance on your WSUS network. If you do not wish expired updates to be declined automatically, you should make sure to decline them manually on a periodic basis.
 
 Approving superseding or superseded updates
 -------------------------------------------

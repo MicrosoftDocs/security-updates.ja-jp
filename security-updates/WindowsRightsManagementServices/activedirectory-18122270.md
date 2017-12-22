@@ -74,10 +74,9 @@ RMS サービスとクライアントは、ローカル レジストリからサ
 --------------------------------------------
   
 ユーザーが自分のコンピュータのコンテンツを公開する場合に、企業で使われているトポロジに応じて公開に使用するサーバーの場所を上書きすることができます。通常、公開に使用するサーバーの場所は、クライアントが Active Directory を使用して探索します。クライアント コンピュータに適切なレジストリ キーを追加することで、クライアントはこれらの方法を無視して、代わりにレジストリ エントリの値に指定された URL を使用するようになります。
-  
-| ![](images/Cc747614.note(WS.10).gif)注                                                                                                                |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| このセクションに記載されているクライアントの上書き設定は、独立したエントリではなく、キーとして作成する必要があります。キーの値は、各キーの既定のエントリに作成する必要があります。 |
+
+> [!NOTE] 
+> このセクションに記載されているクライアントの上書き設定は、独立したエントリではなく、キーとして作成する必要があります。キーの値は、各キーの既定のエントリに作成する必要があります。
   
 #### レジストリ キーの説明
   
@@ -131,27 +130,23 @@ RMS サービスとクライアントは、ローカル レジストリからサ
 </table>
   
 これらのレジストリ キーは、組織のすべてのクライアントが確実に正しい公開サーバーを使用するように、Systems Management Server またはグループ ポリシーを使用して実装することをお勧めします。
-  
-| ![](images/Cc747614.Caution(WS.10).gif)注意                                                                                                     |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| レジストリを正しく編集しないと、システムが正常に動作しなくなる場合があります。レジストリを変更する前に、コンピュータ上の重要なデータのバックアップを作成する必要があります。 |
+
+> [!NOTE] 
+> レジストリを正しく編集しないと、システムが正常に動作しなくなる場合があります。レジストリを変更する前に、コンピュータ上の重要なデータのバックアップを作成する必要があります。 
   
 サンプル レジストリ ファイル (.reg) は、RMS クラスタの各サーバーの適切なレジストリ キーにインポートするために使用できます。
   
 **RMS クラスタの各サーバーに適切なレジストリ キーをインポートするには**  
 1.  次のサンプル レジストリ ファイルをメモ帳にコピーします。
   
-    `Windows Registry Editor Version 5.00`
-  
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]`
-  
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]`
-  
-    `@="http://<RMS_cluster_name>/_wmcs/certification"`
-  
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]`
-  
-    `@="http://<RMS_cluster_name>/_wmcs/licensing"`
+    ```
+    Windows Registry Editor Version 5.00
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]
+    @="http://<RMS_cluster_name>/_wmcs/certification"
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]
+    @="http://<RMS_cluster_name>/_wmcs/licensing"
+    ```
   
 2.  &lt;RMS クラスタ名&gt; を RMS クラスタの名前で置換します。
   

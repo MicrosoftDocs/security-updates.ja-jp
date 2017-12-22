@@ -27,6 +27,7 @@ Selecting a database
 Use the following information to determine what database software is right for your organization. Once you have made a selection, see if there are any additional tasks you need to complete to set up the database software to work with WSUS. You can use database software that is 100-percent compatible with Microsoft SQL. There are two options that have been tested extensively for use with WSUS:
 
 -   Windows Internal Database ships with WSUS 3.0. This version of SQL Server does not have a user interface or tools. Administrators are meant to interact with these products through WSUS.
+
 -   Microsoft SQL Server 2005 is the full-featured database software from Microsoft. WSUS 3.0 requires SQL Server 2005 with Service Pack 1. If you use the full version of SQL Server, the SQL Server administrator should enable the *nested triggers* option in SQL Server. Do this before the WSUS administrator installs WSUS and specifies the database during the setup process. WSUS Setup enables the *recursive triggers* option, which is a database-specific option; however, it does not enable the *nested triggers* option, which is a server global option.
 
 WSUS does support running database software on a computer separate from WSUS, but there are some restrictions. See [Appendix B: Configure Remote SQL](https://technet.microsoft.com/d7183651-b9fb-4288-a15f-33032c40ce2d) for more information.

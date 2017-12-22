@@ -12,8 +12,11 @@ Determine capacity requirements
 WSUS 3.0 SP2 hardware and database requirements are mainly driven by the following factors:
 
 -   Number of client computers in your organization.
+
 -   Client computer synchronization frequency.
+
 -   Number of languages in which updates are approved.
+
 -   Single server or Network Load Balancing (NLB) configuration with two front end servers and a single powerful back end server. NLB is not a failover configuration.
 
 The following sections provide hardware requirements and supported capacity information.
@@ -24,15 +27,25 @@ Minimum Hardware Requirements
 These minimum server hardware and database configuration requirements apply to all installations of WSUS 3.0 SP2.
 
 -   CPU – Minimum 1 GHz, 1.5 GHz or faster is recommended
+
 -   Graphics card – 16 MB hardware accelerated PCI/AGP video card capable of 1-24\*86\*16bpp or more
+
 -   RAM – Minimum 1 GB, 2 GB or more is recommended
+
 -   Page file – at least 1.5 times physical memory
+
 -   I/O subsystem – Fast ATA/IDE 100 hard disk or equivalent SCSI drives
+
 -   Network adapter – Minimum 10 MB, 100 MB or more is recommended
+
 -   Both the system partition and the partition on which you install WSUS 3.0 SP2 must be formatted with the NTFS file system
+
 -   Minimum 1 GB of free space on the system partition
+
 -   Minimum 2 GB of free space on the volume on which database files will be stored
+
 -   Minimum 20 GB of free space on the volume on which content is stored, 30 GB is recommended
+
 -   Notice that WSUS 3.0 SP2 cannot be installed on compressed drives.
 
 Supported Capacity by Configuration
@@ -78,7 +91,11 @@ Transaction rate: 6 clients per second</td>
 Performance notes:
 
 -   Transaction rate is defined as the time that is required to service a single client, and includes multiple requests.
+
 -   Performance testing was done by using delta sync requests. Be aware that an initial request to the server (a full sync) will generate a server CPU spike, as the server must build up its internal caches.
+
 -   If WSUS clients synchronize with the server more frequently than is shown in the table, there will be a corresponding increment in the server load. For example, if clients synchronize every 4 hours in an NLB configuration, the load will be two times as much as an 8 hour synchronization frequency. Be aware that the Group Policy setting that specifies the number of hours that Windows uses to determine how long to wait before checking for available updates automatically staggers the requests to the server. The exact wait time is determined by using the hours specified minus zero to 20 percent of the hours specified. For example, if this policy is used to specify a 20 hour detection frequency, all clients to which this policy is applied will check for updates anywhere between 16 and 20 hours. Requests are processed first-in, first-out. If the number of concurrent sync requests exceeds capacity, they are held in the IIS queue until they can be processed.
+
 -   Increasing the number of languages will also increase the server load. Updating in five languages, instead of one language will approximately double the size of the content directory.
+
 -   Using the WSUS Admin console to run reports during the client sync process had no noticeable effect on performance.

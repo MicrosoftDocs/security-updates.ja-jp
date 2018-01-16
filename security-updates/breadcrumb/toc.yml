@@ -1,3 +1,11 @@
-- name: Home
+- name: Security Updates
   tocHref: /security-updates/
   topicHref: /security-updates/index
+  items:
+  - name: Security Bulletins
+    tocHref: /security-updates/SecurityBulletins/
+    topicHref: /security-updates/SecurityBulletins/securitybulletins
+    items:
+    - name: 2017
+      tocHref: /security-updates/SecurityBulletins/2017/
+      topicHref: /security-updates/SecurityBulletins/2017/securitybulletins2017
